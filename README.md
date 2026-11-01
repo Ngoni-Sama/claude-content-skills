@@ -2,14 +2,14 @@
 
 **Free, copy-paste Claude skills that run your content growth factory** — turn ideas (and your Obsidian memory) into scroll-stopping Instagram reels: hooks, scripts, repurposing, captions, and a 2-week posting calendar.
 
-![Claude Content Skills — by Ootto](assets/banner.png)
+![Claude Content Skills — by Ngoni-Sama](assets/banner.png)
 
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-F4640A)](https://claude.ai/claude-code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Built by Ootto](https://img.shields.io/badge/Built%20by-Ootto-1A1614)](https://www.ootto.ai)
-[![Star this repo](https://img.shields.io/github/stars/Ootto-AI/claude-content-skills?style=social)](https://github.com/Ootto-AI/claude-content-skills)
+[![By Ngoni-Sama](https://img.shields.io/badge/By-Ngoni--Sama-1A1614)](https://github.com/Ngoni-Sama)
+[![Star this repo](https://img.shields.io/github/stars/Ngoni-Sama/claude-content-skills?style=social)](https://github.com/Ngoni-Sama/claude-content-skills)
 
-> Built by **[Ootto](https://www.ootto.ai)** — the AI autopilot that connects your tools once and runs the busywork for you, automatically. These skills are the manual, do-it-yourself version. [Ootto](https://www.ootto.ai) is the autopilot. **[See it in 3 minutes →](https://www.ootto.ai)**
+> Maintained by **[Ngoni-Sama](https://github.com/Ngoni-Sama)**.
 
 ## What this is
 
@@ -18,7 +18,7 @@ Claude "skills" that work like a whole content team in one install. The workflow
 | Skill | Team role | What it does |
 |-------|-----------|--------------|
 | [**Content Factory**](skills/content-factory/SKILL.md) | **Showrunner** | **The whole setup in one command.** Runs the entire pipeline — find a format → study → hook → script → build → caption → post → lead loop — and repeats it 3× a day. Start here. |
-| [**Virality**](skills/virality/SKILL.md) | **Hook doctor** | **The best one.** Built from the real winners and losers of 262 posts and 3.5M views on [@jayantcreates.ai](https://www.instagram.com/jayantcreates.ai/): what our 100K+ reels did in the first 3 seconds vs what our flops did, frame by frame, plus an 8-point hook checklist. Makes Claude do something extraordinary in the first 3 seconds of every reel. |
+| [**Virality**](skills/virality/SKILL.md) | **Hook doctor** | **The best one.** What winning reels do in the first 3 seconds vs what flops do, frame by frame, plus an 8-point hook checklist. Makes Claude do something extraordinary in the first 3 seconds of every reel. |
 | [AI Brain](skills/ai-brain/SKILL.md) | Memory | **Gives Claude permanent memory.** Say "wrap up" and it saves the session to your Obsidian vault (local markdown you own); next session it recalls only what's relevant. The foundation the others run on. |
 | [Agent Reach](skills/agent-reach/SKILL.md) | Scout | **Scrapes the internet for you** — mines Reddit/communities for what people actually want (your topics), finds trending reels to model, and downloads any reel/Short → transcript. The FIND step. Free, no login. *(Bundled from [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach), MIT.)* |
 | [Reel Analyzer](skills/reel-analyzer/SKILL.md) | Researcher | **Feed it any viral reel** — Claude watches it frame by frame + reads the transcript and breaks down the hook, structure, pacing & visuals, so you can model what works. |
@@ -34,7 +34,7 @@ Claude "skills" that work like a whole content team in one install. The workflow
 
 ## The 30 Instagram skills
 
-The set referenced from [30 Claude skills to run your Instagram page](https://ootto.ai/blog/30-claude-skills-to-automate-your-instagram-content) — grouped by the job they do.
+Grouped by the job they do.
 
 **Memory — Claude learns your brand (1)**
 
@@ -50,7 +50,7 @@ The set referenced from [30 Claude skills to run your Instagram page](https://oo
 
 **Create — idea to finished reel (11)**
 
-- [Virality](skills/virality/SKILL.md) — what our 100K+ winners and our flops did in the first 3 seconds, and the checklist every hook must pass.
+- [Virality](skills/virality/SKILL.md) — what winners and flops do in the first 3 seconds, and the checklist every hook must pass.
 - [Viral Hook Writer](skills/viral-hook-writer/SKILL.md) — ten ranked openings for the first three seconds.
 - [Reel Scripter](skills/reel-scripter/SKILL.md) — the winning hook turned into a full script in your voice.
 - [Reel Builder](skills/reel-builder/SKILL.md) — the whole reel, beat by beat.
@@ -97,7 +97,7 @@ This is exactly how the page gets made — **idea → leads**, then 3× a day. [
   4. SCRIPT .............. reel-scripter ...... 30–45s ORIGINAL script in your voice
   5. BUILD ............... reel-builder ....... finished reel: beat-by-beat + on-screen text + scene/visual
   6. CAPTION ............. caption-and-hashtags  caption + tiered hashtags + first comment
-  7. POST ................ publish (or Ootto auto-posts)
+  7. POST ................ publish
   8. LEADS ............... comment-responder .. every comment → public "check DMs" + DM the resource, 24/7
         │                                                                            │
         └────── 9. COMPOUND: save the winner back to ai-brain → next reel is smarter ┘
@@ -123,32 +123,21 @@ Connect it once in Claude Desktop:
 
 The **[AI Brain](skills/ai-brain/SKILL.md)** skill automates the loop: say *"wrap up"* and Claude writes a tight Markdown note of the session into your `AI Brain/` folder (with `#tags` + `[[links]]`); next session it reads back only the relevant notes — so Claude never starts from zero and you stop re-pasting the same context. Everything stays in **your** vault, browsable in Obsidian's graph.
 
-**The full step-by-step (give Claude a permanent memory, then run the content factory on it) is here: [ootto.ai/blog →](https://www.ootto.ai/blog)**
-
 > 💡 It's just local markdown you own — back it up / sync it however you like (iCloud, git, Obsidian Sync). Nothing leaves your machine except the notes you let Claude read.
-
-## Real results, not projections
-
-Every number below is from a real run, published with the full method - not a projection.
-
-- **36,369 views, 20,548 accounts reached** - three reels a day, one account, seven days. [First line to first lead →](https://www.ootto.ai/blog/14-claude-skills-actually-used)
-- **560 comments classified, 78 posts scanned** in one real Instagram audit run. [Claude answered 560 comments →](https://www.ootto.ai/blog/claude-answered-560-instagram-comments)
-- **31.1% median scroll depth across 727 sessions**, 2,010 visitors from Instagram in one campaign. [2,000 blog visitors audit →](https://www.ootto.ai/blog/2000-blog-visitors-blog-audit)
-
 
 ## Installation
 
 **Claude Code plugin marketplace (recommended):**
 
 ```
-/plugin marketplace add Ootto-AI/claude-content-skills
-/plugin install claude-content-skills@ootto-content-skills
+/plugin marketplace add Ngoni-Sama/claude-content-skills
+/plugin install claude-content-skills@ngoni-sama-content-skills
 ```
 
 **Manual (macOS / Linux):**
 
 ```bash
-git clone --depth 1 https://github.com/Ootto-AI/claude-content-skills.git
+git clone --depth 1 https://github.com/Ngoni-Sama/claude-content-skills.git
 bash claude-content-skills/install.sh
 ```
 
@@ -164,24 +153,10 @@ Both copy the skills into `~/.claude/skills/`. Restart Claude Code and the skill
 
 ## ⭐ Star this repo
 
-If these save you a content sprint, **[drop a star](https://github.com/Ootto-AI/claude-content-skills)** — it helps other small teams find them, and tells us which skill packs to build next.
+If these save you a content sprint, **[drop a star](https://github.com/Ngoni-Sama/claude-content-skills)** — it helps other small teams find them, and tells us which skill packs to build next.
 
-<a href="https://github.com/Ootto-AI/claude-content-skills"><img src="assets/star.png" alt="Star claude-content-skills on GitHub" width="420"></a>
-
-## Want it on autopilot? Meet Ootto
-
-Running these by hand still means *you* open Claude, paste the idea, and post the reel. **[Ootto](https://www.ootto.ai)** does the operations side for you — it connects your tools once, learns how your business works, and runs invoicing, lead follow-up, and reporting automatically, so you get your time back to actually create.
-
-- **Connects in ~3 minutes.** No workflows to build.
-- **Self-learning.** It reads your history instead of asking you to configure rules.
-- **Done-for-you.** The skills are manual mode; Ootto is autopilot.
-
-**[Book a 15-minute demo →](https://www.ootto.ai)**
+<a href="https://github.com/Ngoni-Sama/claude-content-skills"><img src="assets/star.png" alt="Star claude-content-skills on GitHub" width="420"></a>
 
 ## License
 
 MIT — see [LICENSE](LICENSE). Use them, fork them, adapt them.
-
----
-
-Part of the Ootto Skills family: invoicing, inbox, leads, scheduling, reporting, support — and now content. **[ootto.ai →](https://www.ootto.ai)**

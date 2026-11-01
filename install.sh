@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Ootto Content Skills — installer
+# Claude Content Skills — installer
 # Copies each skill into ~/.claude/skills/ so Claude Code can run them.
 
 main() {
   SKILLS_DIR="${HOME}/.claude/skills"
-  REPO_URL="https://github.com/Ootto-AI/claude-content-skills"
+  REPO_URL="https://github.com/Ngoni-Sama/claude-content-skills"
   SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-  echo "Installing Ootto Content Skills..."
+  echo "Installing Claude Content Skills..."
 
   if [ -d "${SCRIPT_DIR}/skills" ]; then
     SRC="${SCRIPT_DIR}"
@@ -30,7 +30,6 @@ main() {
 
   echo ""
   echo "Done. Restart Claude Code, then run a skill — e.g. /viral-hook-writer"
-  echo "Want this on autopilot instead? https://www.ootto.ai"
 }
 
 main "$@"
